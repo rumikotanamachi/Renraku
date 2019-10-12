@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE22E86523516BA200B7D322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22E86423516BA200B7D322 /* AppDelegate.swift */; };
+		CE22E86723516BA200B7D322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22E86623516BA200B7D322 /* ViewController.swift */; };
+		CE22E86A23516BA200B7D322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE22E86823516BA200B7D322 /* Main.storyboard */; };
+		CE22E86C23516BA300B7D322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE22E86B23516BA300B7D322 /* Assets.xcassets */; };
+		CE22E86F23516BA300B7D322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE22E86D23516BA300B7D322 /* LaunchScreen.storyboard */; };
+		CE22E87A23516BA300B7D322 /* RenrakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22E87923516BA300B7D322 /* RenrakuTests.swift */; };
+		CE22E88523516BA300B7D322 /* RenrakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22E88423516BA300B7D322 /* RenrakuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE22E87623516BA300B7D322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE22E85923516BA200B7D322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE22E86023516BA200B7D322;
+			remoteInfo = Renraku;
+		};
+		CE22E88123516BA300B7D322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE22E85923516BA200B7D322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE22E86023516BA200B7D322;
+			remoteInfo = Renraku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE22E86123516BA200B7D322 /* Renraku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renraku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE22E86423516BA200B7D322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE22E86623516BA200B7D322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE22E86923516BA200B7D322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE22E86B23516BA300B7D322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE22E86E23516BA300B7D322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE22E87023516BA300B7D322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE22E87523516BA300B7D322 /* RenrakuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenrakuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE22E87923516BA300B7D322 /* RenrakuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenrakuTests.swift; sourceTree = "<group>"; };
+		CE22E87B23516BA300B7D322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE22E88023516BA300B7D322 /* RenrakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenrakuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE22E88423516BA300B7D322 /* RenrakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenrakuUITests.swift; sourceTree = "<group>"; };
+		CE22E88623516BA300B7D322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE22E85E23516BA200B7D322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE22E87223516BA300B7D322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE22E87D23516BA300B7D322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE22E85823516BA200B7D322 = {
+			isa = PBXGroup;
+			children = (
+				CE22E86323516BA200B7D322 /* Renraku */,
+				CE22E87823516BA300B7D322 /* RenrakuTests */,
+				CE22E88323516BA300B7D322 /* RenrakuUITests */,
+				CE22E86223516BA200B7D322 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE22E86223516BA200B7D322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE22E86123516BA200B7D322 /* Renraku.app */,
+				CE22E87523516BA300B7D322 /* RenrakuTests.xctest */,
+				CE22E88023516BA300B7D322 /* RenrakuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE22E86323516BA200B7D322 /* Renraku */ = {
+			isa = PBXGroup;
+			children = (
+				CE22E86423516BA200B7D322 /* AppDelegate.swift */,
+				CE22E86623516BA200B7D322 /* ViewController.swift */,
+				CE22E86823516BA200B7D322 /* Main.storyboard */,
+				CE22E86B23516BA300B7D322 /* Assets.xcassets */,
+				CE22E86D23516BA300B7D322 /* LaunchScreen.storyboard */,
+				CE22E87023516BA300B7D322 /* Info.plist */,
+			);
+			path = Renraku;
+			sourceTree = "<group>";
+		};
+		CE22E87823516BA300B7D322 /* RenrakuTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE22E87923516BA300B7D322 /* RenrakuTests.swift */,
+				CE22E87B23516BA300B7D322 /* Info.plist */,
+			);
+			path = RenrakuTests;
+			sourceTree = "<group>";
+		};
+		CE22E88323516BA300B7D322 /* RenrakuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE22E88423516BA300B7D322 /* RenrakuUITests.swift */,
+				CE22E88623516BA300B7D322 /* Info.plist */,
+			);
+			path = RenrakuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE22E86023516BA200B7D322 /* Renraku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE22E88923516BA300B7D322 /* Build configuration list for PBXNativeTarget "Renraku" */;
+			buildPhases = (
+				CE22E85D23516BA200B7D322 /* Sources */,
+				CE22E85E23516BA200B7D322 /* Frameworks */,
+				CE22E85F23516BA200B7D322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Renraku;
+			productName = Renraku;
+			productReference = CE22E86123516BA200B7D322 /* Renraku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE22E87423516BA300B7D322 /* RenrakuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE22E88C23516BA300B7D322 /* Build configuration list for PBXNativeTarget "RenrakuTests" */;
+			buildPhases = (
+				CE22E87123516BA300B7D322 /* Sources */,
+				CE22E87223516BA300B7D322 /* Frameworks */,
+				CE22E87323516BA300B7D322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE22E87723516BA300B7D322 /* PBXTargetDependency */,
+			);
+			name = RenrakuTests;
+			productName = RenrakuTests;
+			productReference = CE22E87523516BA300B7D322 /* RenrakuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE22E87F23516BA300B7D322 /* RenrakuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE22E88F23516BA300B7D322 /* Build configuration list for PBXNativeTarget "RenrakuUITests" */;
+			buildPhases = (
+				CE22E87C23516BA300B7D322 /* Sources */,
+				CE22E87D23516BA300B7D322 /* Frameworks */,
+				CE22E87E23516BA300B7D322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE22E88223516BA300B7D322 /* PBXTargetDependency */,
+			);
+			name = RenrakuUITests;
+			productName = RenrakuUITests;
+			productReference = CE22E88023516BA300B7D322 /* RenrakuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE22E85923516BA200B7D322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = rumikotanamachi;
+				TargetAttributes = {
+					CE22E86023516BA200B7D322 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CE22E87423516BA300B7D322 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CE22E86023516BA200B7D322;
+					};
+					CE22E87F23516BA300B7D322 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CE22E86023516BA200B7D322;
+					};
+				};
+			};
+			buildConfigurationList = CE22E85C23516BA200B7D322 /* Build configuration list for PBXProject "Renraku" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE22E85823516BA200B7D322;
+			productRefGroup = CE22E86223516BA200B7D322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE22E86023516BA200B7D322 /* Renraku */,
+				CE22E87423516BA300B7D322 /* RenrakuTests */,
+				CE22E87F23516BA300B7D322 /* RenrakuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE22E85F23516BA200B7D322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE22E86F23516BA300B7D322 /* LaunchScreen.storyboard in Resources */,
+				CE22E86C23516BA300B7D322 /* Assets.xcassets in Resources */,
+				CE22E86A23516BA200B7D322 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE22E87323516BA300B7D322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE22E87E23516BA300B7D322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE22E85D23516BA200B7D322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE22E86723516BA200B7D322 /* ViewController.swift in Sources */,
+				CE22E86523516BA200B7D322 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE22E87123516BA300B7D322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE22E87A23516BA300B7D322 /* RenrakuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE22E87C23516BA300B7D322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE22E88523516BA300B7D322 /* RenrakuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE22E87723516BA300B7D322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE22E86023516BA200B7D322 /* Renraku */;
+			targetProxy = CE22E87623516BA300B7D322 /* PBXContainerItemProxy */;
+		};
+		CE22E88223516BA300B7D322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE22E86023516BA200B7D322 /* Renraku */;
+			targetProxy = CE22E88123516BA300B7D322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE22E86823516BA200B7D322 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE22E86923516BA200B7D322 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE22E86D23516BA300B7D322 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE22E86E23516BA300B7D322 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE22E88723516BA300B7D322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE22E88823516BA300B7D322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE22E88A23516BA300B7D322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Renraku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotinstall.Renraku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE22E88B23516BA300B7D322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Renraku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotinstall.Renraku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE22E88D23516BA300B7D322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RenrakuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotinstall.RenrakuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Renraku.app/Renraku";
+			};
+			name = Debug;
+		};
+		CE22E88E23516BA300B7D322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RenrakuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotinstall.RenrakuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Renraku.app/Renraku";
+			};
+			name = Release;
+		};
+		CE22E89023516BA300B7D322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RenrakuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotinstall.RenrakuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Renraku;
+			};
+			name = Debug;
+		};
+		CE22E89123516BA300B7D322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RenrakuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotinstall.RenrakuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Renraku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE22E85C23516BA200B7D322 /* Build configuration list for PBXProject "Renraku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE22E88723516BA300B7D322 /* Debug */,
+				CE22E88823516BA300B7D322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE22E88923516BA300B7D322 /* Build configuration list for PBXNativeTarget "Renraku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE22E88A23516BA300B7D322 /* Debug */,
+				CE22E88B23516BA300B7D322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE22E88C23516BA300B7D322 /* Build configuration list for PBXNativeTarget "RenrakuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE22E88D23516BA300B7D322 /* Debug */,
+				CE22E88E23516BA300B7D322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE22E88F23516BA300B7D322 /* Build configuration list for PBXNativeTarget "RenrakuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE22E89023516BA300B7D322 /* Debug */,
+				CE22E89123516BA300B7D322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE22E85923516BA200B7D322 /* Project object */;
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Renraku/LoginViewController.swift"
+            timestampString = "592573802.454662"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "emailTextField"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Renraku.LoginViewController.emailTextField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Renraku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumikotanamachi/Desktop/RUMI-%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%95%E3%82%9A/APP%E3%83%95%E3%82%A9%E3%83%AB%E3%82%BF%E3%82%99/Renraku/Renraku/LoginViewController.swift"
+                  timestampString = "592546497.621399"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Renraku.LoginViewController.emailTextField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Renraku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumikotanamachi/Desktop/RUMI-%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%95%E3%82%9A/APP%E3%83%95%E3%82%A9%E3%83%AB%E3%82%BF%E3%82%99/Renraku/Renraku/LoginViewController.swift"
+                  timestampString = "592546497.625252"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Renraku.LoginViewController.emailTextField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Renraku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumikotanamachi/Desktop/RUMI-%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%95%E3%82%9A/APP%E3%83%95%E3%82%A9%E3%83%AB%E3%82%BF%E3%82%99/Renraku/Renraku/LoginViewController.swift"
+                  timestampString = "592546497.62696"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Renraku.LoginViewController.emailTextField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Renraku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumikotanamachi/Desktop/RUMI-%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%95%E3%82%9A/APP%E3%83%95%E3%82%A9%E3%83%AB%E3%82%BF%E3%82%99/Renraku/Renraku/LoginViewController.swift"
+                  timestampString = "592546497.6289639"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Renraku.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Renraku.LoginViewController"
+                  moduleName = "Renraku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumikotanamachi/Desktop/RUMI-%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%95%E3%82%9A/APP%E3%83%95%E3%82%A9%E3%83%AB%E3%82%BF%E3%82%99/Renraku/Renraku/LoginViewController.swift"
+                  timestampString = "592546497.6313469"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "199">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Renraku.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Renraku.LoginViewController&gt;"
+                  moduleName = "Renraku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumikotanamachi/Desktop/RUMI-%E3%83%86%E3%82%99%E3%82%A3%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%95%E3%82%9A/APP%E3%83%95%E3%82%A9%E3%83%AB%E3%82%BF%E3%82%99/Renraku/Renraku/LoginViewController.swift"
+                  timestampString = "592546497.634082"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

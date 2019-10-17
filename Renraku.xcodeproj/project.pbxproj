@@ -14,6 +14,8 @@
 		CE22E86F23516BA300B7D322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE22E86D23516BA300B7D322 /* LaunchScreen.storyboard */; };
 		CE22E87A23516BA300B7D322 /* RenrakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22E87923516BA300B7D322 /* RenrakuTests.swift */; };
 		CE22E88523516BA300B7D322 /* RenrakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22E88423516BA300B7D322 /* RenrakuUITests.swift */; };
+		CE22E89323516BC000B7D322 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE22E89223516BBF00B7D322 /* Storyboard.storyboard */; };
+		CE22E89B2351763F00B7D322 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22E89A2351763F00B7D322 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CE22E88023516BA300B7D322 /* RenrakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenrakuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE22E88423516BA300B7D322 /* RenrakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenrakuUITests.swift; sourceTree = "<group>"; };
 		CE22E88623516BA300B7D322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE22E89223516BBF00B7D322 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CE22E89A2351763F00B7D322 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				CE22E86423516BA200B7D322 /* AppDelegate.swift */,
 				CE22E86623516BA200B7D322 /* ViewController.swift */,
 				CE22E86823516BA200B7D322 /* Main.storyboard */,
+				CE22E89223516BBF00B7D322 /* Storyboard.storyboard */,
 				CE22E86B23516BA300B7D322 /* Assets.xcassets */,
 				CE22E86D23516BA300B7D322 /* LaunchScreen.storyboard */,
 				CE22E87023516BA300B7D322 /* Info.plist */,
+				CE22E89A2351763F00B7D322 /* LoginViewController.swift */,
 			);
 			path = Renraku;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE22E86F23516BA300B7D322 /* LaunchScreen.storyboard in Resources */,
+				CE22E89323516BC000B7D322 /* Storyboard.storyboard in Resources */,
 				CE22E86C23516BA300B7D322 /* Assets.xcassets in Resources */,
 				CE22E86A23516BA200B7D322 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE22E89B2351763F00B7D322 /* LoginViewController.swift in Sources */,
 				CE22E86723516BA200B7D322 /* ViewController.swift in Sources */,
 				CE22E86523516BA200B7D322 /* AppDelegate.swift in Sources */,
 			);
